@@ -51,6 +51,7 @@ COMBINED = [
     "output_repacked_tail_five_direct_live_b_16x16.ir",
     "output_repacked_tail_value_colored_live_b_16x16.ir",
     "output_repacked_tail_deferred_value_colored_live_b_16x16.ir",
+    "output_repacked_tail_zero_copy_deferred_value_colored_live_b_16x16.ir",
 ]
 
 
