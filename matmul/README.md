@@ -45,12 +45,22 @@ cost = matmul.score_16x16(ir)
 | 2026-05-01 |  70,053 | [ir](submissions/dead_input_outputs_packed_16x16.ir), [report](submissions/dead_input_outputs_packed_16x16.md) | [@sjbaebae](https://github.com/sjbaebae)     | + dead-input output reuse + B packing |
 | 2026-05-06 |  69,697 | [ir](submissions/aliased_16x16.ir), [report](submissions/aliased_16x16.md)     | [@yaroslavvb](https://github.com/yaroslavvb) | C↔A address aliasing + final-add fusion       |
 | 2026-05-05 |  68,452 | [ir](submissions/colmajor_fused_16x16.ir), [report](submissions/colmajor_fused_16x16.md) | [@zh4ngx](https://github.com/zh4ngx)         | + column-major order + fused final copy-out |
-| 2026-05-13 |  68,390 | [ir](submissions/output_repacked_tail_16x16.ir), [report](submissions/output_repacked_tail_16x16.md) | [@cosminscn](https://github.com/cosminscn) | + liveness order + output-read-aware packing + five-output scratch tail |
-| 2026-05-13 |  68,341 | [ir](submissions/output_repacked_tail_live_b_16x16.ir), [report](submissions/output_repacked_tail_live_b_16x16.md) | [@cosminscn](https://github.com/cosminscn) | + live-B evacuation after output-repacked tail |
-| 2026-05-13 |  68,041 | [ir](submissions/output_repacked_tail_current_order_live_b_16x16.ir), [report](submissions/output_repacked_tail_current_order_live_b_16x16.md) | [@cosminscn](https://github.com/cosminscn) | + current-order near-family + live-B evacuation |
-| 2026-05-13 |  68,039 | [ir](submissions/output_repacked_tail_five_direct_live_b_16x16.ir), [report](submissions/output_repacked_tail_five_direct_live_b_16x16.md) | [@cosminscn](https://github.com/cosminscn) | + five-direct tail + live-B evacuation |
-| 2026-05-13 |  67,927 | [ir](submissions/output_repacked_tail_value_colored_live_b_16x16.ir), [report](submissions/output_repacked_tail_value_colored_live_b_16x16.md) | [@cosminscn](https://github.com/cosminscn) | + value-lifetime address coloring |
-| 2026-05-13 |  67,911 | [ir](submissions/output_repacked_tail_deferred_value_colored_live_b_16x16.ir), [report](submissions/output_repacked_tail_deferred_value_colored_live_b_16x16.md) | [@cosminscn](https://github.com/cosminscn) | + output deferral + value-lifetime address coloring |
-| 2026-05-14 |  67,904 | [ir](submissions/output_repacked_tail_zero_copy_deferred_value_colored_live_b_16x16.ir), [report](submissions/output_repacked_tail_zero_copy_deferred_value_colored_live_b_16x16.md) | [@cosminscn](https://github.com/cosminscn) | + zero-copy home-70 reorder + value-lifetime address coloring ★ best |
+| 2026-05-14 |  67,904 | [ir](submissions/output_repacked_tail_zero_copy_deferred_value_colored_live_b_16x16.ir), [report](submissions/output_repacked_tail_zero_copy_deferred_value_colored_live_b_16x16.md) | [@cosminscn](https://github.com/cosminscn) | output-repacked tail/live-B refinement family ★ best |
+
+### Tail/Live-B Refinement Family
+
+This compact table expands the dense `output_repacked_tail_*` run grouped in the
+main 16×16 leaderboard above.  All rows remain part of the record history; they
+are grouped here only to keep the top-level leaderboard readable.
+
+| Date       | Cost   | Submission                                          | What changed |
+| -          | -:     | -                                                   | -            |
+| 2026-05-13 | 68,390 | [ir](submissions/output_repacked_tail_16x16.ir), [report](submissions/output_repacked_tail_16x16.md) | liveness order + output-read-aware packing + five-output scratch tail |
+| 2026-05-13 | 68,341 | [ir](submissions/output_repacked_tail_live_b_16x16.ir), [report](submissions/output_repacked_tail_live_b_16x16.md) | live-B evacuation after output-repacked tail |
+| 2026-05-13 | 68,041 | [ir](submissions/output_repacked_tail_current_order_live_b_16x16.ir), [report](submissions/output_repacked_tail_current_order_live_b_16x16.md) | current-order near-family + live-B evacuation |
+| 2026-05-13 | 68,039 | [ir](submissions/output_repacked_tail_five_direct_live_b_16x16.ir), [report](submissions/output_repacked_tail_five_direct_live_b_16x16.md) | five-direct tail + live-B evacuation |
+| 2026-05-13 | 67,927 | [ir](submissions/output_repacked_tail_value_colored_live_b_16x16.ir), [report](submissions/output_repacked_tail_value_colored_live_b_16x16.md) | value-lifetime address coloring |
+| 2026-05-13 | 67,911 | [ir](submissions/output_repacked_tail_deferred_value_colored_live_b_16x16.ir), [report](submissions/output_repacked_tail_deferred_value_colored_live_b_16x16.md) | output deferral + value-lifetime address coloring |
+| 2026-05-14 | 67,904 | [ir](submissions/output_repacked_tail_zero_copy_deferred_value_colored_live_b_16x16.ir), [report](submissions/output_repacked_tail_zero_copy_deferred_value_colored_live_b_16x16.md) | zero-copy home-70 reorder + value-lifetime address coloring ★ best |
 
 [access_distance](doc/access_distance/) — per-submission read-distance histogram + CDF for every IR above.

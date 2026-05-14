@@ -57,6 +57,11 @@ cheapest first).
 **`colmajor_fused_16x16.ir`** — cost 68,452
 ![colmajor_fused_16x16](colmajor_fused_16x16.png)
 
+### Tail/live-B refinement family
+
+These are the dense `output_repacked_tail_*` records grouped for scanability.
+They are all included in the combined CDF above.
+
 **`output_repacked_tail_16x16.ir`** — cost 68,390
 ![output_repacked_tail_16x16](output_repacked_tail_16x16.png)
 

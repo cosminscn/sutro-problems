@@ -9,10 +9,17 @@
 
 ## Idea
 
-This submission builds on the 67,911 deferred value-colored live-B trace.  Wave
-12 found that the home-70 local lifetime basin can be improved without adding
-any copy operation: move one independent A reload earlier, then rebuild the
-same max-chain value coloring.
+This submission builds on the 67,911 deferred value-colored live-B trace with
+one local zero-extra-copy reorder around the value eventually colored to home
+address `70`.  It moves an existing A reload, `copy 3,295`, three legal
+positions earlier across independent arithmetic, then rebuilds the same
+max-chain value coloring.
+
+No instruction is added or removed.  The trace still has 1,575 `copy`
+operations, and the uncolored post-evacuation score remains 68,041.  The full
+7-point gain appears only after value coloring, because the reorder changes the
+nearby lifetime interval endpoints enough for the coloring pass to choose a
+slightly cheaper address assignment.
 
 In the uncolored post-evac trace, the local reorder is:
 
@@ -29,8 +36,7 @@ new 4764: mul  1,6,1
 ```
 
 The moved copy is independent of the three operations it crosses.  The
-uncolored post score remains 68,041, so the improvement comes entirely from
-changing interval endpoints before value coloring.
+moved instruction is an existing reload, not an extra copy operation.
 
 ## Path to 67,904
 
@@ -75,7 +81,7 @@ changing interval endpoints before value coloring.
 python matmul/submissions/output_repacked_tail_zero_copy_deferred_value_colored_live_b_16x16.py
 python matmul/experiments/random_true_matmul_check.py \
   matmul/submissions/output_repacked_tail_zero_copy_deferred_value_colored_live_b_16x16.ir \
-  --trials 500 --seed 20260524 --min -73 --max 73
+  --n 16 --trials 500 --seed 20260524 --min -73 --max 73
 ```
 
 Observed locally:
@@ -84,6 +90,3 @@ Observed locally:
 output_repacked_tail_zero_copy_deferred_value_colored_live_b_16x16.ir  cost=67,904
 matmul/submissions/output_repacked_tail_zero_copy_deferred_value_colored_live_b_16x16.ir: cost=67,904 ok 500 random trials
 ```
-
-Agent AQ also validated the experiment artifact with 100 arbitrary signed
-true-matmul trials, seed `20260514`, range `[-73, 73]`.
