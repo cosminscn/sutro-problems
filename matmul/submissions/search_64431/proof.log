@@ -1,0 +1,4 @@
+best_64431.ir: score=64,431, sha256=9d94114a87fecd30168fbcf63931bbc98a50778984a11fe0c3b16940218bcf11
+formal proof: 256/256 outputs match exact noncommutative integer polynomials
+operations: {'copy': 1504, 'mul': 4096, 'add': 3840}
+read costs: {'copy': 19884, 'mul': 19352, 'add': 20751, 'output': 4444}

@@ -1,0 +1,32 @@
+{
+  "parent_generator": "matmul/submissions/search_64448/reproduce.py",
+  "parent_raw_sha256": "6dca745d2e7fff3e23794dc28c6481fde140bb522922ab34c06d9e2c3cfb089a",
+  "move_semantics": "Zero-based index in current operation list; remove source:source+length then insert that block at destination in the shortened list.",
+  "moves": [
+    {
+      "source": 7902,
+      "destination": 7905,
+      "length": 2
+    },
+    {
+      "source": 7893,
+      "destination": 7991,
+      "length": 1
+    },
+    {
+      "source": 1823,
+      "destination": 1825,
+      "length": 1
+    },
+    {
+      "source": 226,
+      "destination": 222,
+      "length": 4
+    },
+    {
+      "source": 1281,
+      "destination": 1287,
+      "length": 1
+    }
+  ]
+}

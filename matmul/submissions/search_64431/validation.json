@@ -1,0 +1,135 @@
+{
+  "score": 64431,
+  "sha256": "9d94114a87fecd30168fbcf63931bbc98a50778984a11fe0c3b16940218bcf11",
+  "fresh_process_replay": true,
+  "byte_identical_to_submission": true,
+  "accepted_histories_match_discovery": true,
+  "elapsed_seconds": 6.466421249999257,
+  "configuration": {
+    "parent_generator": "matmul/submissions/search_64448/reproduce.py",
+    "parent_raw_sha256": "6dca745d2e7fff3e23794dc28c6481fde140bb522922ab34c06d9e2c3cfb089a",
+    "move_semantics": "Zero-based index in current operation list; remove source:source+length then insert that block at destination in the shortened list.",
+    "moves": [
+      {
+        "source": 7902,
+        "destination": 7905,
+        "length": 2
+      },
+      {
+        "source": 7893,
+        "destination": 7991,
+        "length": 1
+      },
+      {
+        "source": 1823,
+        "destination": 1825,
+        "length": 1
+      },
+      {
+        "source": 226,
+        "destination": 222,
+        "length": 4
+      },
+      {
+        "source": 1281,
+        "destination": 1287,
+        "length": 1
+      }
+    ]
+  },
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "ortools": "9.15.6755"
+  },
+  "generator_sha256": "e56efb41c120d88df8d19ab1c7845bfa7fa15b4ce29cfcb72e3c52c6f82af334",
+  "discovery_configuration_sha256": "955e1f68f3e9bea30ef7ef428254a0af3c98bcfba6b957f8ccb982bde52ce5ea",
+  "discovery_sha256": "7b292f7b500bf26db58e2b5ad708608c4d1c3a386c73472b61ac3f533e18c011",
+  "helper_sha256": {
+    "matmul/submissions/search_64448/reproduce.py": "e76a78bf59cd894ac711df71cb3bab6a965db1360769004b682f499711b92cf4",
+    "matmul/submissions/search_64829/reproduce.py": "90dd12e48ec1a04876ac39d6b5e2504bf045d0399941d697f57586c20749094c",
+    "matmul/submissions/search_64953/core.py": "f8cd29776cb2b4804bb35b0fc69abf01052166177e97d1bf64d26b8e51b9baa8",
+    "matmul/submissions/search_64953/pair_alloc.py": "7154567c4927c0b969c4cba23e284255634740e8dd29e48c2af779413a1aac2d",
+    "matmul/submissions/search_value_coloring.py": "ae66625c8788d8ed98aefb1299cac60498ce6d89266217fc9324f159c93380dd"
+  },
+  "stages": [
+    {
+      "name": "reordered_generator",
+      "score": 1177063,
+      "sha256": "3c86365a522ca3909e8b1a892ef38e9edc21f3c54eb873f074854ff7e638be13",
+      "operations": {
+        "copy": 1504,
+        "mul": 4096,
+        "add": 3840
+      },
+      "read_costs": {
+        "copy": 52549,
+        "mul": 569351,
+        "add": 536023,
+        "output": 19140
+      }
+    },
+    {
+      "name": "dp_initial",
+      "score": 64458,
+      "sha256": "0393e6775e7b73ea8f117dd541247a07f5e8de146359b2ac422cf87d9155f184",
+      "operations": {
+        "copy": 1504,
+        "mul": 4096,
+        "add": 3840
+      },
+      "read_costs": {
+        "copy": 20112,
+        "mul": 19352,
+        "add": 20778,
+        "output": 4216
+      }
+    },
+    {
+      "name": "pair2_seed0_no_ties",
+      "score": 64431,
+      "sha256": "66929dab27c72e9714bf8a1ae77f1942b4201fe81d0d7a255a8547108eabadc3",
+      "operations": {
+        "copy": 1504,
+        "mul": 4096,
+        "add": 3840
+      },
+      "read_costs": {
+        "copy": 20112,
+        "mul": 19352,
+        "add": 20751,
+        "output": 4216
+      },
+      "accepted_history": [
+        {
+          "round": 0,
+          "tiers": [
+            2,
+            3
+          ],
+          "gain": 27,
+          "score": 64431
+        }
+      ],
+      "history_sha256": "a411d80daf8a946df039866dfe764c35223c5f1fb1e147e7e3c681ceb165cb22"
+    },
+    {
+      "name": "pair5_seed11_ties",
+      "score": 64431,
+      "sha256": "9d94114a87fecd30168fbcf63931bbc98a50778984a11fe0c3b16940218bcf11",
+      "operations": {
+        "copy": 1504,
+        "mul": 4096,
+        "add": 3840
+      },
+      "read_costs": {
+        "copy": 19884,
+        "mul": 19352,
+        "add": 20751,
+        "output": 4444
+      },
+      "accepted_history": [],
+      "history_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    }
+  ]
+}
