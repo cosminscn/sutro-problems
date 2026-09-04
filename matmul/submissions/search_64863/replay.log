@@ -1,0 +1,62 @@
+{"stage": "captured_generator", "score": 1199136, "sha256": "b0b5b2009c15919ddb24847163faf86cc3b2c3cb687150a439b1908b87114c73"}
+{"stage": "dp_initial", "score": 65097, "sha256": "8267e45855937191f32af6994e0fca21acf4096bb2d0ee6f4942e80b223e8899"}
+{"round": 0, "tiers": [2, 3], "gain": 57, "score": 65040}
+{"round": 0, "tiers": [13, 21], "gain": 8, "score": 65032}
+round=0 initial=65097 current=65032 improvements=2 elapsed=0.84
+round=1 initial=65097 current=65032 improvements=0 elapsed=1.64
+{"stage": "pair2_seed0_no_ties", "score": 65032, "sha256": "2c91abd71851716cde1a200269f1701c1c54068b5657dae9ce65a604eed10922"}
+{"round": 0, "tiers": [14, 21], "gain": 56, "score": 64976}
+{"round": 0, "tiers": [14, 17], "gain": 9, "score": 64967}
+{"round": 0, "tiers": [17, 18], "gain": 3, "score": 64964}
+{"round": 0, "tiers": [13, 15], "gain": 6, "score": 64958}
+{"round": 0, "tiers": [15, 16], "gain": 3, "score": 64955}
+{"round": 0, "tiers": [14, 15], "gain": 3, "score": 64952}
+{"round": 0, "tiers": [11, 17], "gain": 6, "score": 64946}
+{"round": 0, "tiers": [9, 17], "gain": 8, "score": 64938}
+{"round": 0, "tiers": [7, 14], "gain": 7, "score": 64931}
+{"round": 0, "tiers": [14, 18], "gain": 4, "score": 64927}
+{"round": 0, "tiers": [8, 11], "gain": 3, "score": 64924}
+{"round": 0, "tiers": [15, 18], "gain": 3, "score": 64921}
+{"round": 0, "tiers": [8, 9], "gain": 1, "score": 64920}
+{"round": 0, "tiers": [16, 17], "gain": 3, "score": 64917}
+{"round": 0, "tiers": [15, 17], "gain": 4, "score": 64913}
+round=0 initial=65032 current=64913 improvements=15 elapsed=1.89
+{"round": 1, "tiers": [14, 16], "gain": 6, "score": 64907}
+{"round": 1, "tiers": [16, 17], "gain": 3, "score": 64904}
+{"round": 1, "tiers": [7, 8], "gain": 2, "score": 64902}
+round=1 initial=65032 current=64902 improvements=3 elapsed=3.28
+{"round": 2, "tiers": [14, 16], "gain": 2, "score": 64900}
+round=2 initial=65032 current=64900 improvements=1 elapsed=4.46
+{"round": 3, "tiers": [7, 14], "gain": 7, "score": 64893}
+{"round": 3, "tiers": [16, 17], "gain": 1, "score": 64892}
+round=3 initial=65032 current=64892 improvements=2 elapsed=5.86
+round=4 initial=65032 current=64892 improvements=0 elapsed=7.03
+{"stage": "pair5_seed11_ties", "score": 64892, "sha256": "e38133d58b3e43e53d028f0741052cb2032bcc0cf6d81f7f905f7af94ccc8f44"}
+{"round": 0, "tiers": [7, 10], "gain": 3, "score": 64891}
+{"round": 0, "tiers": [7, 14], "gain": 7, "score": 64884}
+{"round": 0, "tiers": [10, 12], "gain": 2, "score": 64882}
+round=0 initial=64894 current=64882 improvements=3 elapsed=1.17
+{"round": 1, "tiers": [18, 19], "gain": 1, "score": 64881}
+{"round": 1, "tiers": [19, 20], "gain": 1, "score": 64880}
+{"round": 1, "tiers": [12, 14], "gain": 2, "score": 64878}
+{"round": 1, "tiers": [17, 18], "gain": 1, "score": 64877}
+round=1 initial=64894 current=64877 improvements=4 elapsed=2.42
+{"round": 2, "tiers": [20, 21], "gain": 1, "score": 64876}
+round=2 initial=64894 current=64876 improvements=1 elapsed=3.64
+{"stage": "recapture_13_14_pair3_seed456", "score": 64876, "sha256": "a5ad7729625ff9ae5522f29153049fed1fe6a6df1ee16d544d0ef458b833c084"}
+{"round": 0, "tiers": [19, 20], "gain": 1, "score": 64875}
+{"round": 0, "tiers": [20, 21], "gain": 1, "score": 64874}
+{"round": 0, "tiers": [18, 19], "gain": 1, "score": 64873}
+{"round": 0, "tiers": [17, 18], "gain": 1, "score": 64872}
+round=0 initial=64876 current=64872 improvements=4 elapsed=1.31
+round=1 initial=64876 current=64872 improvements=0 elapsed=2.73
+{"stage": "pair2_seed0_ties", "score": 64872, "sha256": "3a4ffee69365a56084073ea1cb34766ba3209df7032c8ee0952a98c5c0e69910"}
+{"round": 0, "tiers": [9, 10], "gain": 1, "score": 64872}
+{"round": 0, "tiers": [10, 12], "gain": 2, "score": 64870}
+round=0 initial=64873 current=64870 improvements=2 elapsed=1.26
+{"round": 1, "tiers": [8, 9], "gain": 1, "score": 64869}
+{"round": 1, "tiers": [12, 14], "gain": 2, "score": 64867}
+{"round": 1, "tiers": [17, 21], "gain": 4, "score": 64863}
+round=1 initial=64873 current=64863 improvements=3 elapsed=2.44
+{"stage": "recapture_8_pair2_seed271828", "score": 64863, "sha256": "3cfa88db51db23c350fc41056f617677bea51dc859ff37cb2898c88f80eecb1e"}
+Full generator replay is byte-identical to best_64863.ir.

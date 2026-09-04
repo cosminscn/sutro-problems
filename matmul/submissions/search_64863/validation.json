@@ -1,0 +1,132 @@
+{
+  "score": 64863,
+  "sha256": "3cfa88db51db23c350fc41056f617677bea51dc859ff37cb2898c88f80eecb1e",
+  "fresh_process_replay": true,
+  "byte_identical_to_submission": true,
+  "elapsed_seconds": 18.515969834000316,
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "ortools": "9.15.6755"
+  },
+  "helper_sha256": {
+    "matmul/submissions/search_64953/core.py": "f8cd29776cb2b4804bb35b0fc69abf01052166177e97d1bf64d26b8e51b9baa8",
+    "matmul/submissions/search_64953/pair_alloc.py": "7154567c4927c0b969c4cba23e284255634740e8dd29e48c2af779413a1aac2d",
+    "matmul/submissions/search_64953/schedule_search.py": "01e3ba08e4fce096c527a264124c9f5eaa100cd1e5afe57266cca03e9658f0e0",
+    "matmul/submissions/search_value_coloring.py": "ae66625c8788d8ed98aefb1299cac60498ce6d89266217fc9324f159c93380dd"
+  },
+  "stages": [
+    {
+      "name": "captured_generator",
+      "score": 1199136,
+      "sha256": "b0b5b2009c15919ddb24847163faf86cc3b2c3cb687150a439b1908b87114c73",
+      "operations": {
+        "copy": 1680,
+        "mul": 4096,
+        "add": 3840
+      },
+      "read_costs": {
+        "copy": 71692,
+        "mul": 571427,
+        "add": 536992,
+        "output": 19025
+      }
+    },
+    {
+      "name": "dp_initial",
+      "score": 65097,
+      "sha256": "8267e45855937191f32af6994e0fca21acf4096bb2d0ee6f4942e80b223e8899",
+      "operations": {
+        "copy": 1680,
+        "mul": 4096,
+        "add": 3840
+      },
+      "read_costs": {
+        "copy": 21593,
+        "mul": 14272,
+        "add": 24838,
+        "output": 4394
+      }
+    },
+    {
+      "name": "pair2_seed0_no_ties",
+      "score": 65032,
+      "sha256": "2c91abd71851716cde1a200269f1701c1c54068b5657dae9ce65a604eed10922",
+      "operations": {
+        "copy": 1680,
+        "mul": 4096,
+        "add": 3840
+      },
+      "read_costs": {
+        "copy": 21585,
+        "mul": 14272,
+        "add": 24781,
+        "output": 4394
+      }
+    },
+    {
+      "name": "pair5_seed11_ties",
+      "score": 64892,
+      "sha256": "e38133d58b3e43e53d028f0741052cb2032bcc0cf6d81f7f905f7af94ccc8f44",
+      "operations": {
+        "copy": 1680,
+        "mul": 4096,
+        "add": 3840
+      },
+      "read_costs": {
+        "copy": 21304,
+        "mul": 14272,
+        "add": 24781,
+        "output": 4535
+      }
+    },
+    {
+      "name": "recapture_13_14_pair3_seed456",
+      "score": 64876,
+      "sha256": "a5ad7729625ff9ae5522f29153049fed1fe6a6df1ee16d544d0ef458b833c084",
+      "operations": {
+        "copy": 1682,
+        "mul": 4096,
+        "add": 3840
+      },
+      "read_costs": {
+        "copy": 21311,
+        "mul": 14272,
+        "add": 24781,
+        "output": 4512
+      }
+    },
+    {
+      "name": "pair2_seed0_ties",
+      "score": 64872,
+      "sha256": "3a4ffee69365a56084073ea1cb34766ba3209df7032c8ee0952a98c5c0e69910",
+      "operations": {
+        "copy": 1682,
+        "mul": 4096,
+        "add": 3840
+      },
+      "read_costs": {
+        "copy": 21326,
+        "mul": 14272,
+        "add": 24781,
+        "output": 4493
+      }
+    },
+    {
+      "name": "recapture_8_pair2_seed271828",
+      "score": 64863,
+      "sha256": "3cfa88db51db23c350fc41056f617677bea51dc859ff37cb2898c88f80eecb1e",
+      "operations": {
+        "copy": 1683,
+        "mul": 4096,
+        "add": 3840
+      },
+      "read_costs": {
+        "copy": 21312,
+        "mul": 14272,
+        "add": 24782,
+        "output": 4497
+      }
+    }
+  ]
+}
