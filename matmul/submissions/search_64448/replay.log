@@ -1,0 +1,13 @@
+{"stage": "captured_generator", "score": 1177063, "sha256": "6dca745d2e7fff3e23794dc28c6481fde140bb522922ab34c06d9e2c3cfb089a"}
+{"stage": "dp_initial", "score": 64476, "sha256": "88bca3be93761060e23de4d10b0c0a0419e0ca513ada0154686da099110be3df"}
+{"round": 0, "tiers": [2, 3], "gain": 28, "score": 64448}
+round=0 initial=64476 current=64448 improvements=1 elapsed=0.63
+round=1 initial=64476 current=64448 improvements=0 elapsed=1.24
+{"stage": "pair2_seed0_no_ties", "score": 64448, "sha256": "e01319a1c15e676daa105e094513df78d6e4a85f1cf92656b1053175e96f1053"}
+round=0 initial=64448 current=64448 improvements=0 elapsed=0.91
+round=1 initial=64448 current=64448 improvements=0 elapsed=1.86
+round=2 initial=64448 current=64448 improvements=0 elapsed=2.84
+round=3 initial=64448 current=64448 improvements=0 elapsed=3.78
+round=4 initial=64448 current=64448 improvements=0 elapsed=4.74
+{"stage": "pair5_seed11_ties", "score": 64448, "sha256": "5cbf44a58ab45a28da2da90fdad48083d332daa57971da7ab5340225018be33b"}
+Portable generator replay is byte-identical to best_64448.ir.

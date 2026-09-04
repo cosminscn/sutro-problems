@@ -1,0 +1,83 @@
+{
+  "tree": {
+    "axis": "col",
+    "cut": 6,
+    "children": [
+      {
+        "axis": "row",
+        "cut": 4,
+        "children": [
+          {
+            "q": 1,
+            "orientation": "column",
+            "reverse": false,
+            "k_offset": 3
+          },
+          {
+            "axis": "row",
+            "cut": 8,
+            "children": [
+              {
+                "q": 1,
+                "orientation": "column",
+                "reverse": false,
+                "k_offset": 11
+              },
+              {
+                "axis": "row",
+                "cut": 12,
+                "children": [
+                  {
+                    "q": 1,
+                    "orientation": "column",
+                    "reverse": false
+                  },
+                  {
+                    "q": 1,
+                    "orientation": "column",
+                    "reverse": false
+                  }
+                ],
+                "reverse": false
+              }
+            ],
+            "reverse": false
+          }
+        ],
+        "reverse": false
+      },
+      {
+        "axis": "row",
+        "cut": 5,
+        "children": [
+          {
+            "q": 2,
+            "orientation": "column",
+            "reverse": true
+          },
+          {
+            "axis": "row",
+            "cut": 10,
+            "children": [
+              {
+                "q": 2,
+                "orientation": "column",
+                "reverse": false
+              },
+              {
+                "q": 2,
+                "orientation": "column",
+                "reverse": true,
+                "k_offset": 4
+              }
+            ],
+            "reverse": false
+          }
+        ],
+        "reverse": false
+      }
+    ],
+    "reverse": false
+  },
+  "B_capture_threshold": 8
+}

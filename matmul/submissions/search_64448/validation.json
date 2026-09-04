@@ -1,0 +1,151 @@
+{
+  "score": 64448,
+  "sha256": "5cbf44a58ab45a28da2da90fdad48083d332daa57971da7ab5340225018be33b",
+  "fresh_process_replay": true,
+  "byte_identical_to_submission": true,
+  "accepted_histories_match_discovery": true,
+  "elapsed_seconds": 6.385736291000285,
+  "configuration": {
+    "row_widths_by_panel": [
+      [
+        4,
+        4,
+        4,
+        4
+      ],
+      [
+        5,
+        5,
+        6
+      ]
+    ],
+    "column_widths": [
+      6,
+      10
+    ],
+    "chunks_by_panel": [
+      1,
+      2
+    ],
+    "k_offsets_by_panel": [
+      [
+        3,
+        11,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        4
+      ]
+    ],
+    "reverse_by_panel": [
+      [
+        false,
+        false,
+        false,
+        false
+      ],
+      [
+        true,
+        false,
+        true
+      ]
+    ],
+    "capture_threshold": 8
+  },
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "ortools": "9.15.6755"
+  },
+  "generator_sha256": "e76a78bf59cd894ac711df71cb3bab6a965db1360769004b682f499711b92cf4",
+  "discovery_configuration_sha256": "e75dea5ab7c46465e80182644634b7cae406832c0d24bfbddf04e9fc3caaeb27",
+  "helper_sha256": {
+    "matmul/submissions/search_64829/reproduce.py": "90dd12e48ec1a04876ac39d6b5e2504bf045d0399941d697f57586c20749094c",
+    "matmul/submissions/search_64953/core.py": "f8cd29776cb2b4804bb35b0fc69abf01052166177e97d1bf64d26b8e51b9baa8",
+    "matmul/submissions/search_64953/pair_alloc.py": "7154567c4927c0b969c4cba23e284255634740e8dd29e48c2af779413a1aac2d",
+    "matmul/submissions/search_value_coloring.py": "ae66625c8788d8ed98aefb1299cac60498ce6d89266217fc9324f159c93380dd"
+  },
+  "stages": [
+    {
+      "name": "captured_generator",
+      "score": 1177063,
+      "sha256": "6dca745d2e7fff3e23794dc28c6481fde140bb522922ab34c06d9e2c3cfb089a",
+      "operations": {
+        "copy": 1504,
+        "mul": 4096,
+        "add": 3840
+      },
+      "read_costs": {
+        "copy": 52549,
+        "mul": 569351,
+        "add": 536023,
+        "output": 19140
+      }
+    },
+    {
+      "name": "dp_initial",
+      "score": 64476,
+      "sha256": "88bca3be93761060e23de4d10b0c0a0419e0ca513ada0154686da099110be3df",
+      "operations": {
+        "copy": 1504,
+        "mul": 4096,
+        "add": 3840
+      },
+      "read_costs": {
+        "copy": 20110,
+        "mul": 19352,
+        "add": 20793,
+        "output": 4221
+      }
+    },
+    {
+      "name": "pair2_seed0_no_ties",
+      "score": 64448,
+      "sha256": "e01319a1c15e676daa105e094513df78d6e4a85f1cf92656b1053175e96f1053",
+      "operations": {
+        "copy": 1504,
+        "mul": 4096,
+        "add": 3840
+      },
+      "read_costs": {
+        "copy": 20110,
+        "mul": 19352,
+        "add": 20765,
+        "output": 4221
+      },
+      "accepted_history": [
+        {
+          "round": 0,
+          "tiers": [
+            2,
+            3
+          ],
+          "gain": 28,
+          "score": 64448
+        }
+      ],
+      "history_sha256": "c951137ae9376e2c186c35837e930894eff9fc8ef0c3d767788e1e55f8b9ac49"
+    },
+    {
+      "name": "pair5_seed11_ties",
+      "score": 64448,
+      "sha256": "5cbf44a58ab45a28da2da90fdad48083d332daa57971da7ab5340225018be33b",
+      "operations": {
+        "copy": 1504,
+        "mul": 4096,
+        "add": 3840
+      },
+      "read_costs": {
+        "copy": 19897,
+        "mul": 19352,
+        "add": 20763,
+        "output": 4436
+      },
+      "accepted_history": [],
+      "history_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    }
+  ]
+}
