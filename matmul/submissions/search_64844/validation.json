@@ -1,0 +1,103 @@
+{
+  "score": 64844,
+  "sha256": "2f09749a34daa66227b23320de8a19d67ff443e0248a604b175fbb66d8d9f786",
+  "fresh_process_replay": true,
+  "byte_identical_to_submission": true,
+  "elapsed_seconds": 7.051560541000072,
+  "configuration": {
+    "row_widths": [
+      5,
+      5,
+      6
+    ],
+    "column_widths": [
+      6,
+      10
+    ],
+    "macro_chunks": [
+      1,
+      1,
+      2,
+      2,
+      2,
+      2
+    ],
+    "capture_threshold": 6
+  },
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "ortools": "9.15.6755"
+  },
+  "helper_sha256": {
+    "matmul/submissions/search_64953/core.py": "f8cd29776cb2b4804bb35b0fc69abf01052166177e97d1bf64d26b8e51b9baa8",
+    "matmul/submissions/search_64953/pair_alloc.py": "7154567c4927c0b969c4cba23e284255634740e8dd29e48c2af779413a1aac2d",
+    "matmul/submissions/search_value_coloring.py": "ae66625c8788d8ed98aefb1299cac60498ce6d89266217fc9324f159c93380dd"
+  },
+  "stages": [
+    {
+      "name": "captured_generator",
+      "score": 1173542,
+      "sha256": "3ffcb44e9d05d466e0198f6a9c29e2e9f9ed8338b752bb5049981ac85c81cc48",
+      "operations": {
+        "copy": 1440,
+        "mul": 4096,
+        "add": 3840
+      },
+      "read_costs": {
+        "copy": 57779,
+        "mul": 564652,
+        "add": 531976,
+        "output": 19135
+      }
+    },
+    {
+      "name": "dp_initial",
+      "score": 64955,
+      "sha256": "4569972f5b02cd7f657b096d9ebbe95475f97e46185d9a414b0ba352a29925fd",
+      "operations": {
+        "copy": 1440,
+        "mul": 4096,
+        "add": 3840
+      },
+      "read_costs": {
+        "copy": 19645,
+        "mul": 20624,
+        "add": 20512,
+        "output": 4174
+      }
+    },
+    {
+      "name": "pair2_seed0_no_ties",
+      "score": 64943,
+      "sha256": "d49883c8f07544e814b837d2f649037510d956caec78c9dee3564031e90fb362",
+      "operations": {
+        "copy": 1440,
+        "mul": 4096,
+        "add": 3840
+      },
+      "read_costs": {
+        "copy": 19645,
+        "mul": 20624,
+        "add": 20500,
+        "output": 4174
+      }
+    },
+    {
+      "name": "pair5_seed11_ties",
+      "score": 64844,
+      "sha256": "2f09749a34daa66227b23320de8a19d67ff443e0248a604b175fbb66d8d9f786",
+      "operations": {
+        "copy": 1440,
+        "mul": 4096,
+        "add": 3840
+      },
+      "read_costs": {
+        "copy": 19225,
+        "mul": 20624,
+        "add": 20494,
+        "output": 4501
+      }
+    }
+  ]
+}

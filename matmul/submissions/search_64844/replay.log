@@ -1,0 +1,29 @@
+{"stage": "captured_generator", "score": 1173542, "sha256": "3ffcb44e9d05d466e0198f6a9c29e2e9f9ed8338b752bb5049981ac85c81cc48"}
+{"stage": "dp_initial", "score": 64955, "sha256": "4569972f5b02cd7f657b096d9ebbe95475f97e46185d9a414b0ba352a29925fd"}
+{"round": 0, "tiers": [2, 3], "gain": 12, "score": 64943}
+round=0 initial=64955 current=64943 improvements=1 elapsed=0.66
+round=1 initial=64955 current=64943 improvements=0 elapsed=1.29
+{"stage": "pair2_seed0_no_ties", "score": 64943, "sha256": "d49883c8f07544e814b837d2f649037510d956caec78c9dee3564031e90fb362"}
+{"round": 0, "tiers": [14, 17], "gain": 15, "score": 64928}
+{"round": 0, "tiers": [8, 18], "gain": 10, "score": 64918}
+{"round": 0, "tiers": [18, 22], "gain": 4, "score": 64914}
+{"round": 0, "tiers": [17, 18], "gain": 5, "score": 64909}
+{"round": 0, "tiers": [7, 8], "gain": 1, "score": 64908}
+{"round": 0, "tiers": [15, 16], "gain": 2, "score": 64906}
+{"round": 0, "tiers": [14, 15], "gain": 2, "score": 64904}
+{"round": 0, "tiers": [14, 18], "gain": 8, "score": 64896}
+{"round": 0, "tiers": [15, 18], "gain": 12, "score": 64884}
+{"round": 0, "tiers": [16, 18], "gain": 4, "score": 64880}
+{"round": 0, "tiers": [16, 17], "gain": 13, "score": 64867}
+{"round": 0, "tiers": [15, 17], "gain": 2, "score": 64865}
+round=0 initial=64943 current=64865 improvements=12 elapsed=1.20
+{"round": 1, "tiers": [14, 15], "gain": 2, "score": 64863}
+{"round": 1, "tiers": [15, 17], "gain": 2, "score": 64861}
+{"round": 1, "tiers": [15, 16], "gain": 13, "score": 64848}
+{"round": 1, "tiers": [17, 18], "gain": 4, "score": 64844}
+round=1 initial=64943 current=64844 improvements=4 elapsed=2.25
+round=2 initial=64943 current=64844 improvements=0 elapsed=3.29
+round=3 initial=64943 current=64844 improvements=0 elapsed=4.32
+round=4 initial=64943 current=64844 improvements=0 elapsed=5.35
+{"stage": "pair5_seed11_ties", "score": 64844, "sha256": "2f09749a34daa66227b23320de8a19d67ff443e0248a604b175fbb66d8d9f786"}
+Portable generator replay is byte-identical to best_64844.ir.
