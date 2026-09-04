@@ -1,0 +1,24 @@
+{"stage": "captured_generator", "score": 1184459, "sha256": "6317711c972453658b0b276c08043a1c48a62ea633fe92974e2f6dfc9f0521c0"}
+{"stage": "dp_initial", "score": 64566, "sha256": "115d764fd7c296ed9b914fc9f6d8677a255a6b24ecb737b97076be60e560a3d9"}
+{"round": 0, "tiers": [2, 3], "gain": 28, "score": 64538}
+round=0 initial=64566 current=64538 improvements=1 elapsed=0.69
+round=1 initial=64566 current=64538 improvements=0 elapsed=1.34
+{"stage": "pair2_seed0_no_ties", "score": 64538, "sha256": "a83d8b98e6ea6bcd36fbb20174a6638239e9370b73c7facd91f2af7b76df76a7"}
+{"round": 0, "tiers": [14, 17], "gain": 6, "score": 64532}
+{"round": 0, "tiers": [17, 18], "gain": 2, "score": 64530}
+{"round": 0, "tiers": [15, 16], "gain": 6, "score": 64524}
+{"round": 0, "tiers": [14, 15], "gain": 6, "score": 64518}
+{"round": 0, "tiers": [15, 18], "gain": 3, "score": 64515}
+{"round": 0, "tiers": [16, 18], "gain": 12, "score": 64503}
+{"round": 0, "tiers": [16, 17], "gain": 11, "score": 64492}
+{"round": 0, "tiers": [15, 17], "gain": 2, "score": 64490}
+round=0 initial=64538 current=64490 improvements=8 elapsed=1.15
+{"round": 1, "tiers": [15, 16], "gain": 11, "score": 64479}
+{"round": 1, "tiers": [17, 18], "gain": 1, "score": 64478}
+{"round": 1, "tiers": [14, 15], "gain": 3, "score": 64475}
+round=1 initial=64538 current=64475 improvements=3 elapsed=2.35
+round=2 initial=64538 current=64475 improvements=0 elapsed=3.42
+round=3 initial=64538 current=64475 improvements=0 elapsed=4.44
+round=4 initial=64538 current=64475 improvements=0 elapsed=5.48
+{"stage": "pair5_seed11_ties", "score": 64475, "sha256": "f8c3255a43f5867e6e4173ebed3d8f7cfe6284a85eb77bc661f1d7f4aa25cf90"}
+Portable generator replay is byte-identical to best_64475.ir.

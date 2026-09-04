@@ -1,0 +1,224 @@
+{
+  "score": 64475,
+  "sha256": "f8c3255a43f5867e6e4173ebed3d8f7cfe6284a85eb77bc661f1d7f4aa25cf90",
+  "fresh_process_replay": true,
+  "byte_identical_to_submission": true,
+  "accepted_histories_match_discovery": true,
+  "elapsed_seconds": 7.242386333000468,
+  "configuration": {
+    "row_widths_by_panel": [
+      [
+        4,
+        4,
+        4,
+        4
+      ],
+      [
+        5,
+        5,
+        6
+      ]
+    ],
+    "column_widths": [
+      6,
+      10
+    ],
+    "chunks_by_panel": [
+      1,
+      2
+    ],
+    "capture_threshold": 6
+  },
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "ortools": "9.15.6755"
+  },
+  "generator_sha256": "eae44d705f6fe59f915e1c336b2b612f63b539a113868e789d478640ced80e99",
+  "helper_sha256": {
+    "matmul/submissions/search_64829/reproduce.py": "90dd12e48ec1a04876ac39d6b5e2504bf045d0399941d697f57586c20749094c",
+    "matmul/submissions/search_64953/core.py": "f8cd29776cb2b4804bb35b0fc69abf01052166177e97d1bf64d26b8e51b9baa8",
+    "matmul/submissions/search_64953/pair_alloc.py": "7154567c4927c0b969c4cba23e284255634740e8dd29e48c2af779413a1aac2d",
+    "matmul/submissions/search_value_coloring.py": "ae66625c8788d8ed98aefb1299cac60498ce6d89266217fc9324f159c93380dd"
+  },
+  "stages": [
+    {
+      "name": "captured_generator",
+      "score": 1184459,
+      "sha256": "6317711c972453658b0b276c08043a1c48a62ea633fe92974e2f6dfc9f0521c0",
+      "operations": {
+        "copy": 1536,
+        "mul": 4096,
+        "add": 3840
+      },
+      "read_costs": {
+        "copy": 59945,
+        "mul": 569351,
+        "add": 536023,
+        "output": 19140
+      }
+    },
+    {
+      "name": "dp_initial",
+      "score": 64566,
+      "sha256": "115d764fd7c296ed9b914fc9f6d8677a255a6b24ecb737b97076be60e560a3d9",
+      "operations": {
+        "copy": 1536,
+        "mul": 4096,
+        "add": 3840
+      },
+      "read_costs": {
+        "copy": 20228,
+        "mul": 19352,
+        "add": 20793,
+        "output": 4193
+      }
+    },
+    {
+      "name": "pair2_seed0_no_ties",
+      "score": 64538,
+      "sha256": "a83d8b98e6ea6bcd36fbb20174a6638239e9370b73c7facd91f2af7b76df76a7",
+      "operations": {
+        "copy": 1536,
+        "mul": 4096,
+        "add": 3840
+      },
+      "read_costs": {
+        "copy": 20228,
+        "mul": 19352,
+        "add": 20765,
+        "output": 4193
+      },
+      "accepted_history": [
+        {
+          "round": 0,
+          "tiers": [
+            2,
+            3
+          ],
+          "gain": 28,
+          "score": 64538
+        }
+      ],
+      "history_sha256": "31379dfa861729fbfa963dc8ed84dfabbaa375f9d4a0e4a667ffd3b1a8292361"
+    },
+    {
+      "name": "pair5_seed11_ties",
+      "score": 64475,
+      "sha256": "f8c3255a43f5867e6e4173ebed3d8f7cfe6284a85eb77bc661f1d7f4aa25cf90",
+      "operations": {
+        "copy": 1536,
+        "mul": 4096,
+        "add": 3840
+      },
+      "read_costs": {
+        "copy": 19904,
+        "mul": 19352,
+        "add": 20760,
+        "output": 4459
+      },
+      "accepted_history": [
+        {
+          "round": 0,
+          "tiers": [
+            14,
+            17
+          ],
+          "gain": 6,
+          "score": 64532
+        },
+        {
+          "round": 0,
+          "tiers": [
+            17,
+            18
+          ],
+          "gain": 2,
+          "score": 64530
+        },
+        {
+          "round": 0,
+          "tiers": [
+            15,
+            16
+          ],
+          "gain": 6,
+          "score": 64524
+        },
+        {
+          "round": 0,
+          "tiers": [
+            14,
+            15
+          ],
+          "gain": 6,
+          "score": 64518
+        },
+        {
+          "round": 0,
+          "tiers": [
+            15,
+            18
+          ],
+          "gain": 3,
+          "score": 64515
+        },
+        {
+          "round": 0,
+          "tiers": [
+            16,
+            18
+          ],
+          "gain": 12,
+          "score": 64503
+        },
+        {
+          "round": 0,
+          "tiers": [
+            16,
+            17
+          ],
+          "gain": 11,
+          "score": 64492
+        },
+        {
+          "round": 0,
+          "tiers": [
+            15,
+            17
+          ],
+          "gain": 2,
+          "score": 64490
+        },
+        {
+          "round": 1,
+          "tiers": [
+            15,
+            16
+          ],
+          "gain": 11,
+          "score": 64479
+        },
+        {
+          "round": 1,
+          "tiers": [
+            17,
+            18
+          ],
+          "gain": 1,
+          "score": 64478
+        },
+        {
+          "round": 1,
+          "tiers": [
+            14,
+            15
+          ],
+          "gain": 3,
+          "score": 64475
+        }
+      ],
+      "history_sha256": "a460814e13ccf1cc569502ff0d391484b5396cf4a3b24601d625f911477ed26b"
+    }
+  ]
+}
