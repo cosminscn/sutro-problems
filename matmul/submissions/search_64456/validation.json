@@ -1,0 +1,287 @@
+{
+  "score": 64456,
+  "sha256": "729fbafe50f61e0553f1f3e5e87ec2a6e3d4bdbe0d7bbfefafe5998ba63f445f",
+  "fresh_process_replay": true,
+  "byte_identical_to_submission": true,
+  "accepted_histories_match_discovery": true,
+  "elapsed_seconds": 6.837865084000441,
+  "configuration": {
+    "row_widths_by_panel": [
+      [
+        4,
+        4,
+        4,
+        4
+      ],
+      [
+        5,
+        5,
+        6
+      ]
+    ],
+    "column_widths": [
+      6,
+      10
+    ],
+    "chunks_by_panel": [
+      1,
+      2
+    ],
+    "capture_threshold": 7
+  },
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "ortools": "9.15.6755"
+  },
+  "generator_sha256": "8fd57ae291a78001d25afa2f0bd3f94d215d62daf337e9518a0be7d0ad569825",
+  "helper_sha256": {
+    "matmul/submissions/search_64829/reproduce.py": "90dd12e48ec1a04876ac39d6b5e2504bf045d0399941d697f57586c20749094c",
+    "matmul/submissions/search_64953/core.py": "f8cd29776cb2b4804bb35b0fc69abf01052166177e97d1bf64d26b8e51b9baa8",
+    "matmul/submissions/search_64953/pair_alloc.py": "7154567c4927c0b969c4cba23e284255634740e8dd29e48c2af779413a1aac2d",
+    "matmul/submissions/search_value_coloring.py": "ae66625c8788d8ed98aefb1299cac60498ce6d89266217fc9324f159c93380dd"
+  },
+  "stages": [
+    {
+      "name": "captured_generator",
+      "score": 1180763,
+      "sha256": "aacd667605aa14aba986f5681955476de704e87d046973c00598154984841e75",
+      "operations": {
+        "copy": 1520,
+        "mul": 4096,
+        "add": 3840
+      },
+      "read_costs": {
+        "copy": 56249,
+        "mul": 569351,
+        "add": 536023,
+        "output": 19140
+      }
+    },
+    {
+      "name": "dp_initial",
+      "score": 64569,
+      "sha256": "740a569b8b4704e99086e540951bf74d804d490b071a2696f92b1717f7681421",
+      "operations": {
+        "copy": 1520,
+        "mul": 4096,
+        "add": 3840
+      },
+      "read_costs": {
+        "copy": 20239,
+        "mul": 19352,
+        "add": 20803,
+        "output": 4175
+      }
+    },
+    {
+      "name": "pair2_seed0_no_ties",
+      "score": 64541,
+      "sha256": "05c0457a1d721fb3cf38d2d5e6ca445a7128c8df2a3347d3d8bb08284e551462",
+      "operations": {
+        "copy": 1520,
+        "mul": 4096,
+        "add": 3840
+      },
+      "read_costs": {
+        "copy": 20239,
+        "mul": 19352,
+        "add": 20775,
+        "output": 4175
+      },
+      "accepted_history": [
+        {
+          "round": 0,
+          "tiers": [
+            2,
+            3
+          ],
+          "gain": 28,
+          "score": 64541
+        }
+      ],
+      "history_sha256": "e1347656b85485c374ace8f243e99c8cfb867b6f3b4dad2a6ba1a23eb2d9ac58"
+    },
+    {
+      "name": "pair5_seed11_ties",
+      "score": 64456,
+      "sha256": "729fbafe50f61e0553f1f3e5e87ec2a6e3d4bdbe0d7bbfefafe5998ba63f445f",
+      "operations": {
+        "copy": 1520,
+        "mul": 4096,
+        "add": 3840
+      },
+      "read_costs": {
+        "copy": 19847,
+        "mul": 19352,
+        "add": 20770,
+        "output": 4487
+      },
+      "accepted_history": [
+        {
+          "round": 0,
+          "tiers": [
+            14,
+            17
+          ],
+          "gain": 6,
+          "score": 64535
+        },
+        {
+          "round": 0,
+          "tiers": [
+            17,
+            18
+          ],
+          "gain": 2,
+          "score": 64533
+        },
+        {
+          "round": 0,
+          "tiers": [
+            14,
+            18
+          ],
+          "gain": 8,
+          "score": 64525
+        },
+        {
+          "round": 0,
+          "tiers": [
+            15,
+            18
+          ],
+          "gain": 12,
+          "score": 64513
+        },
+        {
+          "round": 0,
+          "tiers": [
+            16,
+            17
+          ],
+          "gain": 13,
+          "score": 64500
+        },
+        {
+          "round": 0,
+          "tiers": [
+            15,
+            17
+          ],
+          "gain": 2,
+          "score": 64498
+        },
+        {
+          "round": 1,
+          "tiers": [
+            14,
+            16
+          ],
+          "gain": 22,
+          "score": 64476
+        },
+        {
+          "round": 1,
+          "tiers": [
+            16,
+            17
+          ],
+          "gain": 2,
+          "score": 64474
+        },
+        {
+          "round": 1,
+          "tiers": [
+            15,
+            16
+          ],
+          "gain": 5,
+          "score": 64469
+        },
+        {
+          "round": 1,
+          "tiers": [
+            17,
+            18
+          ],
+          "gain": 8,
+          "score": 64461
+        },
+        {
+          "round": 2,
+          "tiers": [
+            15,
+            16
+          ],
+          "gain": 1,
+          "score": 64460
+        },
+        {
+          "round": 2,
+          "tiers": [
+            16,
+            17
+          ],
+          "gain": 3,
+          "score": 64457
+        },
+        {
+          "round": 3,
+          "tiers": [
+            15,
+            16
+          ],
+          "gain": 1,
+          "score": 64456
+        }
+      ],
+      "history_sha256": "7585fe19aa031b69604bd889bffb87b5b507ea1b8e1d4ea1f9bb4171cc4eb36e"
+    }
+  ],
+  "standalone_verification": {
+    "command": "python -S matmul/submissions/best_64456.py",
+    "exit_code": 0,
+    "official_score": 64456,
+    "exact_noncommutative_outputs": 256,
+    "third_party_site_packages_disabled": true,
+    "log": "proof.log"
+  },
+  "focused_tests": {
+    "command": "python -S -m unittest matmul.test_record_64456 -v",
+    "exit_code": 0,
+    "tests": 2,
+    "elapsed_seconds": 0.053,
+    "third_party_site_packages_disabled": true,
+    "log": "tests.log"
+  },
+  "unchanged_parent_generator_ast": true,
+  "semantic_change": {
+    "parent_score": 64475,
+    "capture_threshold_before": 6,
+    "capture_threshold_after": 7,
+    "captures_before": 160,
+    "captures_after": 144,
+    "cost_delta": {
+      "copy": -57,
+      "mul": 0,
+      "add": 10,
+      "output": 28
+    },
+    "total_delta": -19
+  },
+  "package_file_sha256": {
+    "matmul/submissions/best_64456.ir": "729fbafe50f61e0553f1f3e5e87ec2a6e3d4bdbe0d7bbfefafe5998ba63f445f",
+    "matmul/submissions/best_64456.py": "a9fdab3511f910d5de4a8ddaab496669b360b3220e90e715d07adf5e14a6e2b7",
+    "matmul/test_record_64456.py": "295098b67b42a84d43bdb48e99b32fc4f2c7cd8434f2439b9a1ae972679eb5e2",
+    "matmul/submissions/search_64456/requirements.txt": "cfe051f3b441f3bd37538facf0c28d8648af7c90e64e97e8bdf67da2733c6c70",
+    "matmul/submissions/search_64456/proof.log": "37fd573b0402c5a7efa6d830faea02746e58a5a77b51f09ee50cc4695a21a987",
+    "matmul/submissions/search_64456/tests.log": "e564614f8f7c0622da7346ae2c7c0d24ce4a223a96a847ceada60442277e405b",
+    "matmul/submissions/search_64456/replay.log": "5081ede121e5de929e46442c1851412d1547e9699637ac0ddaa3f4d5b456d318"
+  },
+  "limitations": [
+    "Exact replay was checked with the recorded Python, NumPy and OR-Tools versions; different flow tie choices can change bytes.",
+    "No claim of optimal allocation or scheduling; fixed-trace bounds from prior programs do not transfer.",
+    "Only the targeted record tests were run by this packaging lane; the parent owns the full matmul suite."
+  ]
+}

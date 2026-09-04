@@ -1,0 +1,6 @@
+Command: python -S matmul/submissions/best_64456.py
+Exit status: 0
+best_64456.ir: score=64,456, sha256=729fbafe50f61e0553f1f3e5e87ec2a6e3d4bdbe0d7bbfefafe5998ba63f445f
+formal proof: 256/256 outputs match exact noncommutative integer polynomials
+operations: {'copy': 1520, 'mul': 4096, 'add': 3840}
+read costs: {'copy': 19847, 'mul': 19352, 'add': 20770, 'output': 4487}
