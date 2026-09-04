@@ -1,0 +1,29 @@
+{"stage": "captured_generator", "score": 1173642, "sha256": "093cd429879795f762f23ddd5d323952ea114d9072f70ec6d5db3698aa7188f8"}
+{"stage": "dp_initial", "score": 64929, "sha256": "71cb9d284deebe670655e82679abb37f469415a52a39224c13d0d200c6462caa"}
+{"round": 0, "tiers": [2, 3], "gain": 16, "score": 64913}
+round=0 initial=64929 current=64913 improvements=1 elapsed=0.68
+round=1 initial=64929 current=64913 improvements=0 elapsed=1.33
+{"stage": "pair2_seed0_no_ties", "score": 64913, "sha256": "ae164e5c09855928f92e49c8ff142353a811d17b104a0f163b67eea6f9cec76f"}
+{"round": 0, "tiers": [14, 17], "gain": 9, "score": 64904}
+{"round": 0, "tiers": [17, 18], "gain": 3, "score": 64901}
+{"round": 0, "tiers": [15, 16], "gain": 1, "score": 64900}
+{"round": 0, "tiers": [14, 15], "gain": 1, "score": 64899}
+{"round": 0, "tiers": [14, 18], "gain": 4, "score": 64895}
+{"round": 0, "tiers": [15, 18], "gain": 18, "score": 64877}
+{"round": 0, "tiers": [16, 18], "gain": 2, "score": 64875}
+{"round": 0, "tiers": [16, 17], "gain": 11, "score": 64864}
+{"round": 0, "tiers": [15, 17], "gain": 4, "score": 64860}
+round=0 initial=64913 current=64860 improvements=9 elapsed=1.18
+{"round": 1, "tiers": [15, 18], "gain": 3, "score": 64857}
+{"round": 1, "tiers": [14, 15], "gain": 6, "score": 64851}
+{"round": 1, "tiers": [15, 17], "gain": 2, "score": 64849}
+{"round": 1, "tiers": [15, 16], "gain": 11, "score": 64838}
+{"round": 1, "tiers": [16, 18], "gain": 4, "score": 64834}
+{"round": 1, "tiers": [17, 18], "gain": 3, "score": 64831}
+round=1 initial=64913 current=64831 improvements=6 elapsed=2.30
+{"round": 2, "tiers": [15, 16], "gain": 2, "score": 64829}
+round=2 initial=64913 current=64829 improvements=1 elapsed=3.34
+round=3 initial=64913 current=64829 improvements=0 elapsed=4.38
+round=4 initial=64913 current=64829 improvements=0 elapsed=5.42
+{"stage": "pair5_seed11_ties", "score": 64829, "sha256": "0ee7a25b688c090150a8a4039cf394b6115fc6ab666827ac76471c0c83bb0c88"}
+Portable generator replay is byte-identical to best_64829.ir.
